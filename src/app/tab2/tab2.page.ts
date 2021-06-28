@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  form: any = {};
+
   constructor() {}
+
+  ionViewWillEnter() {
+    this.form = JSON.parse(localStorage.getItem('form'));
+  }
+
 
 }

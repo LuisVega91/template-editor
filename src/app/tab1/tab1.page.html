@@ -13,5 +13,32 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-label position="stacked">Titulo</ion-label>
+    <ion-input [(ngModel)]="form.titulo" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Sub Titulo</ion-label>
+    <ion-input [(ngModel)]="form.subTitulo" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Item</ion-label>
+    <ion-input [(ngModel)]="form.item" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Item2</ion-label>
+    <ion-input [(ngModel)]="form.item2" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Item3</ion-label>
+    <ion-input [(ngModel)]="form.item3" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Footer</ion-label>
+    <ion-input [(ngModel)]="form.footer" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Footer2</ion-label>
+    <ion-input [(ngModel)]="form.footer2" (keyup)="updateLocalStorage()"></ion-input>
+  </ion-item>
 </ion-content>
