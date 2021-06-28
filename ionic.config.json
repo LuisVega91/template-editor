@@ -1,7 +1,0 @@
-{
-  "name": "template-editor",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
